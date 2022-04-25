@@ -21,7 +21,7 @@
             if (e.key.toLowerCase() === 's') {
                 switchButton.click()
             }
-            if (e.key.toLowerCase() === 'd') {
+            if (e.key.toLowerCase() === 'x') {
                 activeLanguageButton.click()
                 document.querySelector("button[dl-test='translator-lang-option-da-DA']").click()
             }

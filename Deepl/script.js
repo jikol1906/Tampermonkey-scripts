@@ -29,6 +29,10 @@
                 activeLanguageButton.click()
                 document.querySelector("button[dl-test='translator-lang-option-de-DE']").click()
             }
+            if (e.key.toLowerCase() === 'm') {
+                const text = textAreas[0].value + "\t" + textAreas[1].value;
+                copyTextToClipboard(text)
+            }
             textAreas[0].focus()
         }
 
